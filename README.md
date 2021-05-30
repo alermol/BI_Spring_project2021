@@ -132,9 +132,9 @@ Based on results of SKAT and SKAT-O association tests two genes showed significa
 | GALC | Variants with CADD > 12.37 | SKAT   | 0.0226957   |
 | GALC | Variants with CADD > 12.37 | SKAT-O | 0.0118832   |
 
-Full results of SKAT test: [SKAT]('.Assoc_results/Skat_summary.csv')
+Full results of SKAT test: [SKAT]('Assoc_results/Skat_summary.csv')
 
-Full results of SKAT-O test: [SKAT-O]('.Assoc_results/../Assoc_results/SkatO_summary.csv')
+Full results of SKAT-O test: [SKAT-O]('Assoc_results/../Assoc_results/SkatO_summary.csv')
 
 ## Next step
 
