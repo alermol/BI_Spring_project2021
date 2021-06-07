@@ -72,6 +72,8 @@ Additional software need to be installed in the cloud environment
   - clinvar_20210501
 - rvtests 20190205 (Zhan *ey al*., 2016)
 
+[Jupyter Notebook](rare_variants_lysosomal_genes.ipynb) contains full pipeline for quality checking and annotation of 8 lysomal genes. Notebook can be directly imported in Terra Cloud Environment and run to replicate all pipeline steps.
+
 ### Data filtering steps
 
 1. Update sex for all samples  
@@ -81,7 +83,7 @@ Additional software need to be installed in the cloud environment
 3. Filter by ancestry  
    All non-european individuals was discarded based on IID (Individual ID) and FID (Family ID) using PLINK.
 4. Filter by relatedness  
-   GRM (Genetic Relationship Matrix) was calculated for all pair of individuals using GATC and in pairs where individuals have more than 12.5% of shared alleles one of the individuals was discarded using PLINK
+   GRM (Genetic Relationship Matrix) was calculated for all pair of individuals using GCTA and in pairs where individuals have more than 12.5% of shared alleles one of the individuals was discarded using PLINK
 5. Filter by missingness per variant  
    Sites with statistically significant difference in missing call frequency between cases and controls (p-value <=0.0001) was discarded using PLINK
 6. Filter by missingness per haplotype  
